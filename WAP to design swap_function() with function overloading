@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main ()
+{
+string a="Hello", b="World";
+cout<< "Value of a before swap function call = " << a <<endl;
+cout<< "Value of b before swap function call = " << b <<endl;
+swap( a, b );
+cout<< "Value of a after swap function call = " << a <<endl;
+cout<< "Value of b after swap function call = " << b <<endl;
+return 0;
+}
+
